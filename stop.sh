@@ -1,5 +1,5 @@
 showHelp() {
-  echo -e "usage: $0 [--funk] [-h | --help]\n"
+  echo -e "usage: stop [--funk] [-h | --help]\n"
   echo    "    --funk                try to stop the funk"
   echo -e "    -h, --help            show help\n"
   echo    "Only accepts a single option."
@@ -7,7 +7,7 @@ showHelp() {
 
 unknownOption() {
   echo "Unknown option: --${OPTARG}"
-  echo "usage: $0 [--funk] [-h | --help]"
+  echo "usage: stop [--funk] [-h | --help]"
 }
 
 optspec=":h-:"
