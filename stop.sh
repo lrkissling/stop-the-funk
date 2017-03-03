@@ -38,3 +38,5 @@ while getopts "$optspec" optchar; do
       ;;
   esac
 done
+
+showHelp
